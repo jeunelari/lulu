@@ -1,9 +1,11 @@
 import { Text, View } from "react-native";
 
-export default function HomeScreen() {
+function FavoritesPage() {
   return (
     <View className="items-center justify-center flex-1">
-      <Text className="text-2xl font-bold">Bienvenue sur l'accueil ! 🎉</Text>
+      <Text>Favoirte</Text>
     </View>
   );
 }
+
+export default FavoritesPage;
